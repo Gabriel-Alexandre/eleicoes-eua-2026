@@ -1,0 +1,62 @@
+{
+ "bcb_sgs1_1994_2003.json": {
+  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/07/1994&dataFinal=31/12/2003",
+  "hora": "2026-11-02T21:33:39",
+  "bytes": 92938,
+  "sha256": "6aa910b6ed5c9f0a24f3fae515ce823502885bf613d74804ccc7f10d0433b5fe"
+ },
+ "bcb_sgs1_2004_2013.json": {
+  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/07/2004&dataFinal=31/12/2013",
+  "hora": "2026-11-02T21:33:59",
+  "bytes": 93133,
+  "sha256": "be06723b23e6e4e2c4c54ea2ac4b0dfe6ca8d586d493747e019f357fee1b9ef3"
+ },
+ "bcb_sgs1_2014_2023.json": {
+  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/07/2014&dataFinal=31/12/2023",
+  "hora": "2026-11-02T21:34:22",
+  "bytes": 93055,
+  "sha256": "ccb09b70363109f858003817972108a95a7be000fbc0c6a4eda051c5f7cfbe3b"
+ },
+ "bcb_sgs1_2024_2026.json": {
+  "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/07/2024&dataFinal=31/12/2026",
+  "hora": "2026-11-02T21:34:27",
+  "bytes": 22972,
+  "sha256": "4ce939af98149f1f899803fe021a89bde320a342119c192129213a0e6854d392"
+ },
+ "comex_EUA_1997-01_2026-09.json": {
+  "url": "https://api-comexstat.mdic.gov.br/general {\"flow\": \"export\", \"monthDetail\": false, \"period\": {\"from\": \"1997-01\", \"to\": \"2026-09\"}, \"filters\": [{\"filter\": \"country\", \"values\": [249]}], \"details\": [\"country\"], \"metrics\": [\"metricFOB\"]}",
+  "hora": "2026-11-02T21:34:31",
+  "bytes": 2153,
+  "sha256": "a9833cc800b8e8753ae3d4eba060192f58d4abf1756ebb3ef11a777a62b73466"
+ },
+ "comex_EUA_2025-01_2025-09.json": {
+  "url": "https://api-comexstat.mdic.gov.br/general {\"flow\": \"export\", \"monthDetail\": false, \"period\": {\"from\": \"2025-01\", \"to\": \"2025-09\"}, \"filters\": [{\"filter\": \"country\", \"values\": [249]}], \"details\": [\"country\"], \"metrics\": [\"metricFOB\"]}",
+  "hora": "2026-11-02T21:34:48",
+  "bytes": 155,
+  "sha256": "091ffa805adc146d2b8d4d704a1f6096ea39c54bfc9893c7af7534e22c513587"
+ },
+ "comex_EUA_2026-01_2026-09.json": {
+  "url": "https://api-comexstat.mdic.gov.br/general {\"flow\": \"export\", \"monthDetail\": false, \"period\": {\"from\": \"2026-01\", \"to\": \"2026-09\"}, \"filters\": [{\"filter\": \"country\", \"values\": [249]}], \"details\": [\"country\"], \"metrics\": [\"metricFOB\"]}",
+  "hora": "2026-11-02T21:35:24",
+  "bytes": 155,
+  "sha256": "24b1d009f7b24945870451cd52900f163e3e0608b9331ddc727a86b68d9f552b"
+ },
+ "comex_China_1997-01_2026-09.json": {
+  "url": "https://api-comexstat.mdic.gov.br/general {\"flow\": \"export\", \"monthDetail\": false, \"period\": {\"from\": \"1997-01\", \"to\": \"2026-09\"}, \"filters\": [{\"filter\": \"country\", \"values\": [160]}], \"details\": [\"country\"], \"metrics\": [\"metricFOB\"]}",
+  "hora": "2026-11-02T21:36:43",
+  "bytes": 1871,
+  "sha256": "e5549525c15b314b4c23619a36831258048b321c54a27a5d4f63feb3a29b9c17"
+ },
+ "comex_China_2025-01_2025-09.json": {
+  "url": "https://api-comexstat.mdic.gov.br/general {\"flow\": \"export\", \"monthDetail\": false, \"period\": {\"from\": \"2025-01\", \"to\": \"2025-09\"}, \"filters\": [{\"filter\": \"country\", \"values\": [160]}], \"details\": [\"country\"], \"metrics\": [\"metricFOB\"]}",
+  "hora": "2026-11-02T21:37:02",
+  "bytes": 146,
+  "sha256": "439c709713c0bfee1e5852dadccaa4fa4bb3d5b6a6949debcc6e55d76cbf5507"
+ },
+ "comex_China_2026-01_2026-09.json": {
+  "url": "https://api-comexstat.mdic.gov.br/general {\"flow\": \"export\", \"monthDetail\": false, \"period\": {\"from\": \"2026-01\", \"to\": \"2026-09\"}, \"filters\": [{\"filter\": \"country\", \"values\": [160]}], \"details\": [\"country\"], \"metrics\": [\"metricFOB\"]}",
+  "hora": "2026-11-02T21:37:18",
+  "bytes": 146,
+  "sha256": "65fd2c1eb2a0ed9bda55db7e67228225d167d6d260d244334be32bae15bc88c5"
+ }
+}

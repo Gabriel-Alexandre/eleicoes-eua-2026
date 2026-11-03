@@ -1,0 +1,26 @@
+tipo,ano,data,valor_pct,metrica,descricao,posicao_em_relacao_a_nov2018,fonte1,fonte2,nota
+taxa_anual,2017,,1.4,tarifas arrecadadas / total importado (imports for consumption),,,USITC Table 1 (usitc-ave-1891-2024),"davemanuel.com/an/tariffs.json (republica USITC, edicao mar/2026)",
+taxa_anual,2018,,1.8,tarifas arrecadadas / total importado (imports for consumption),,,USITC Table 1 (usitc-ave-1891-2024),"davemanuel.com/an/tariffs.json (republica USITC, edicao mar/2026)",
+taxa_anual,2019,,2.6,tarifas arrecadadas / total importado (imports for consumption),,,USITC Table 1 (usitc-ave-1891-2024),"davemanuel.com/an/tariffs.json (republica USITC, edicao mar/2026)",
+taxa_anual,2020,,2.8,tarifas arrecadadas / total importado (imports for consumption),,,USITC Table 1 (usitc-ave-1891-2024),"davemanuel.com/an/tariffs.json (republica USITC, edicao mar/2026)",
+taxa_anual,2021,,3.0,tarifas arrecadadas / total importado (imports for consumption),,,USITC Table 1 (usitc-ave-1891-2024),"davemanuel.com/an/tariffs.json (republica USITC, edicao mar/2026)",
+taxa_anual,2022,,2.8,tarifas arrecadadas / total importado (imports for consumption),,,USITC Table 1 (usitc-ave-1891-2024),"davemanuel.com/an/tariffs.json (republica USITC, edicao mar/2026)",
+taxa_anual,2023,,2.4,tarifas arrecadadas / total importado (imports for consumption),,,USITC Table 1 (usitc-ave-1891-2024),"davemanuel.com/an/tariffs.json (republica USITC, edicao mar/2026)",
+taxa_anual,2024,,2.3,tarifas arrecadadas / total importado (imports for consumption),,,USITC Table 1 (usitc-ave-1891-2024),"davemanuel.com/an/tariffs.json (republica USITC, edicao mar/2026)",
+taxa_anual,2025,,7.8,tarifas arrecadadas / total importado,,,"davemanuel.com/an/tariffs.json (USITC Table 1, edicao mar/2026; PDF oficial de 2025 nao disponivel)",FRED/BEA customs duties e imports of goods (fred-customs-duties; fred-imports-goods),conta com FRED/BEA: 268.663/3346.504 = 8.03% (base contabil diferente)
+taxa_anual,2026,2026-05,7.2,taxa efetiva observada em maio/2026 (ano incompleto),,,Penn Wharton Budget Model (wharton-tarifa-2026-07-13),"Tax Foundation (taxfoundation-tariff-tracker): estimativa 7,2% para o ano de 2026","Yale Budget Lab em 24/ago/2026: taxa ESTATUTARIA 11,0% (mede outra coisa; yale-tariffs-2026-04-08)"
+medida,2018,2018-02-07,,,Salvaguarda Sec. 201: paineis solares e lavadoras em vigor,antes,CRS IN10943 (crs-in10943-tarifas),,
+medida,2018,2018-03-23,,,Sec. 232: aco e aluminio em vigor,antes,CRS IN10943 (crs-in10943-tarifas),,
+medida,2018,2018-07-06,,,"Sec. 301 China, etapa 1: 25% sobre US$ 34 bi",antes,CRS IN10943 (crs-in10943-tarifas),"PIIE (piie-us-china-chart), so para China",
+medida,2018,2018-08-23,,,"Sec. 301 China, etapa 2: 25% sobre US$ 16 bi",antes,CRS IN10943 (crs-in10943-tarifas),"PIIE (piie-us-china-chart), so para China",
+medida,2018,2018-09-24,,,"Sec. 301 China, etapa 3: 10% sobre US$ 200 bi",antes,CRS IN10943 (crs-in10943-tarifas),"PIIE (piie-us-china-chart), so para China",
+medida,2018,2018-12-01,,,Anuncio de novas negociacoes com a China,depois,CRS IN10943 (crs-in10943-tarifas),"PIIE (piie-us-china-chart), so para China",
+medida,2019,2019-05-10,,,Sec. 301 China: etapa 3 sobe para 25%,depois,CRS IN10943 (crs-in10943-tarifas),"PIIE (piie-us-china-chart), so para China",
+medida,2019,2019-05-17,,,"Sec. 232: veiculos declarados ameaca; negociacao ordenada, sem tarifa",depois,CRS IN10943 (crs-in10943-tarifas),,
+medida,2019,2019-05-19,,,Sec. 232: Canada e Mexico isentos de aco e aluminio,depois,CRS IN10943 (crs-in10943-tarifas),,
+medida,2019,2019-05-30,,,"IEEPA: anuncio de 5% sobre o Mexico; suspenso em 07/jun/2019, sem entrar em vigor",depois,CRS IN10943 (crs-in10943-tarifas),,
+medida,2019,2019-09-01,,,"Sec. 301 China, etapa 4A: 15%",depois,CRS IN10943 (crs-in10943-tarifas),"PIIE (piie-us-china-chart), so para China",
+medida,2019,2019-10-11,,,Suspensao da alta prevista para outubro; anuncio da fase 1,depois,CRS IN10943 (crs-in10943-tarifas),,
+medida,2019,2019-12-15,,,USTR suspende a etapa 4B antes de entrar em vigor,depois,CRS IN10943 (crs-in10943-tarifas),,
+medida,2020,2020-01-15,,,"Acordo fase 1 assinado; etapa 4A cairia de 15% para 7,5% em 14/fev/2020",depois,CRS IN10943 (crs-in10943-tarifas),,"o CRS IN10943 datou a assinatura como 1/15/2019, erro evidente de digitacao; a nota do USTR no mesmo texto e 1/15/2020"
+medida,2020,2020-02-08,,,Sec. 232: derivados de aco e aluminio em vigor,depois,CRS IN10943 (crs-in10943-tarifas),,

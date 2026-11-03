@@ -1,0 +1,7 @@
+fonte,tipo,data,camara_d,senado_d,DD,DR,RR,RD,cadeiras_camara_d,cadeiras_senado_d,slug,trecho_literal
+Midterm Forecast,modelo,2026-11-02,,76,75,16,8,1,236,53,previsoes/midtermforecast,Democrats win both
+Decision Desk HQ,modelo,2026-11-02,84,,,,,,241,,previsoes/ddhq-forecast,a 84% chance of winning the House
+Silver Bulletin (via Newsweek),modelo,2026-11-02,,80.1,,,,,,,previsoes/newsweek-silver-final,80.1 percent chance
+RacetotheWH (via Newsweek),modelo,2026-11-02,,79.4,,,,,,53,previsoes/newsweek-silver-final,79.4 percent chance
+Polymarket,mercado,2026-11-02,,,74.5,18.5,4.5,0.55,,,previsoes/polyinsider-balance,Democrats Sweep leads at 74.5%
+Kalshi (via Cryptonews),mercado,2026-11-02,,,74,22,,,,,previsoes/cryptonews-kalshi-polymarket,74% odds of sweeping

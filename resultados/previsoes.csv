@@ -1,0 +1,28 @@
+id,grupo,pergunta,prazo,DD,DR,RR,faixa_DD,faixa_DR,faixa_RR,efeito_DD_RR,efeito_DR_RR,ponderada,discordancia_DD,A_DD,A_DR,A_RR
+B01,brasil,Os EUA reduzem a tarifa de 25% da Seção 301 contra o Brasil ou ampliam isenção relevante por acordo,2027-06-30,45.0,45.0,41.0,improvável,improvável,improvável,4.0,4.0,44.7,16,26.0,24.0,21.5
+B02,brasil,Trump e Lula se encontram pessoalmente,2027-06-30,47.5,47.5,45.0,chance parecida,chance parecida,improvável,2.5,2.5,47.3,17,28.5,27.5,27.5
+B03,brasil,Daniel Perez assume como embaixador dos EUA em Brasília,2027-12-31,56.5,55.5,55.5,provável,provável,provável,1.0,0.0,56.3,18,25.0,34.0,35.5
+B04,brasil,Uma comissão da Câmara dos EUA faz audiência pública com o caso Flávio Bolsonaro entre os temas,2027-12-31,30.0,30.0,11.5,improvável,improvável,muito improvável,18.5,18.5,28.8,25,36.0,32.5,23.0
+B05,brasil,Uma comissão do Congresso dos EUA emite intimação (subpoena) sobre a entrada de Flávio Bolsonaro nos EUA,2028-12-31,13.5,11.0,1.0,muito improvável,muito improvável,quase nenhuma chance,12.5,10.0,12.2,23,11.5,10.5,1.0
+B06,brasil,A Câmara dos EUA aprova em plenário medida para encerrar ou limitar tarifas sobre o Brasil,2028-12-31,27.5,26.5,3.5,improvável,improvável,quase nenhuma chance,24.0,23.0,25.8,28,28.5,27.5,3.0
+B07,brasil,Os EUA aplicam sanção nominal nova a autoridade brasileira,2027-06-30,12.0,12.0,13.5,muito improvável,muito improvável,muito improvável,-1.5,-1.5,12.1,16,12.5,14.0,15.5
+B08,brasil,Os EUA encerram ou deixam de renovar a autorização de permanência de Flávio Bolsonaro,2027-12-31,11.5,11.5,10.5,muito improvável,muito improvável,muito improvável,1.0,1.0,11.4,10,13.5,12.5,12.0
+B09,brasil,Os EUA fazem ataque militar em solo ou águas territoriais brasileiras contra facção sem aval do Brasil,2029-01-20,2.0,3.0,4.0,quase nenhuma chance,quase nenhuma chance,quase nenhuma chance,-2.0,-1.0,2.3,3,2.5,3.5,4.5
+B10,brasil,As exportações do Brasil para os EUA em 2027 superam as de 2026,2028-02-29,57.0,57.0,55.0,provável,provável,chance parecida,2.0,2.0,56.9,20,47.0,45.5,44.0
+B11,brasil,A PTAX de venda de 30/06/2027 fica abaixo da PTAX de 30/10/2026,2027-06-30,55.0,54.5,52.0,chance parecida,chance parecida,chance parecida,3.0,2.5,54.7,14,46.0,46.5,44.5
+W01,mundo,O Congresso aprova nova ajuda à Ucrânia de pelo menos US$ 10 bilhões,2028-12-31,15.0,10.5,4.0,muito improvável,muito improvável,quase nenhuma chance,11.0,6.5,13.5,37,16.0,10.0,4.5
+W02,mundo,"O Congresso aprova lei nova de sanções contra a Rússia, além da Lei Graham de 18/09/2026",2028-12-31,15.0,11.0,6.5,muito improvável,muito improvável,muito improvável,8.5,4.5,13.7,45,23.0,19.0,17.0
+W03,mundo,Uma resolução conjunta de poderes de guerra (a que vai ao presidente) passa nas 2 casas depois de 03/01/2027,2028-12-31,61.0,35.0,11.0,provável,improvável,muito improvável,50.0,24.0,53.0,20,47.5,18.0,7.0
+W04,mundo,O Congresso derruba um veto de Trump sobre tarifa ou uso da força,2029-01-03,3.5,2.0,1.0,quase nenhuma chance,quase nenhuma chance,quase nenhuma chance,2.5,1.0,3.1,2,4.0,2.0,1.0
+W05,mundo,A tarifa média efetiva dos EUA em 31/12/2027 fica pelo menos 3 pontos abaixo da de 31/10/2026,2027-12-31,14.5,13.5,10.5,muito improvável,muito improvável,muito improvável,4.0,3.0,14.1,6,25.0,21.0,16.0
+W06,mundo,Os EUA fazem nova operação militar em país da América Latina sem aval do governo local,2027-12-31,27.5,28.5,32.5,improvável,improvável,improvável,-5.0,-4.0,28.0,18,27.5,30.0,35.0
+W07,mundo,EUA e China assinam acordo comercial formal,2027-12-31,23.5,24.5,25.5,improvável,improvável,improvável,-2.0,-1.0,23.8,18,24.5,25.0,25.0
+W08,mundo,Os EUA retomam ataques ao território do Irã,2027-12-31,35.5,38.0,41.5,improvável,improvável,improvável,-6.0,-3.5,36.3,7,40.0,42.5,47.5
+T01,trump,Trump afirma publicamente que o resultado nacional de 2026 foi fraudado,2027-01-03,52.5,36.0,7.0,chance parecida,improvável,muito improvável,45.5,29.0,46.6,17,60.0,47.5,9.0
+T02,trump,Uma maioria eleita deixa de tomar posse no início do novo Congresso em 03/01/2027,2027-01-05,3.0,3.0,5.0,quase nenhuma chance,quase nenhuma chance,quase nenhuma chance,-2.0,-2.0,3.1,5,3.5,3.5,2.0
+T03,trump,A Câmara aprova artigos de impeachment contra Trump,2029-01-03,30.5,26.5,1.0,improvável,improvável,quase nenhuma chance,29.5,25.5,27.9,30,36.5,34.0,1.0
+T04,trump,A Câmara aprova artigos de impeachment contra um secretário do governo Trump,2029-01-03,30.0,30.0,1.0,improvável,improvável,quase nenhuma chance,29.0,29.0,28.2,7,37.5,35.5,1.0
+T05,trump,O governo federal fica paralisado por pelo menos 7 dias,2027-12-31,42.0,42.0,33.0,improvável,improvável,improvável,9.0,9.0,41.4,5,36.5,35.5,20.0
+T06,trump,Trump dá pelo menos 10 vetos,2028-12-31,58.5,39.0,4.0,provável,improvável,quase nenhuma chance,54.5,35.0,51.4,25,45.0,22.5,4.5
+B12,brasil,O Brasil concede o agrément a Daniel Perez,2027-06-30,50.0,49.0,48.0,chance parecida,chance parecida,chance parecida,2.0,1.0,49.7,25,,,
+W09,mundo,Os EUA passam a cobrar a tarifa da Lei Graham de pelo menos 25% de algum país comprador de energia russa,2027-12-31,9.0,7.5,7.0,muito improvável,muito improvável,muito improvável,2.0,0.5,8.6,10,,,

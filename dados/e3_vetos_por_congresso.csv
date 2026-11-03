@@ -1,0 +1,43 @@
+congresso,presidente,partido_presidente,governo_dividido,vetos_total,vetos_derrubados,fonte,nota
+80,Harry S. Truman,D,ambos,75,6,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+81,Harry S. Truman,D,nenhum,79,3,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+82,Harry S. Truman,D,nenhum,22,3,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+83,Dwight D. Eisenhower,R,nenhum,52,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+84,Dwight D. Eisenhower,R,ambos,34,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+85,Dwight D. Eisenhower,R,ambos,51,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),"inconsistencia na UCSB: total 51, regular 18 + pocket 22; total por presidente bate"
+86,Dwight D. Eisenhower,R,ambos,44,2,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+87,John F. Kennedy,D,nenhum,20,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+88,John F. Kennedy,D,nenhum,1,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),Congresso com dois presidentes; uma linha por presidente
+88,Lyndon B. Johnson,D,nenhum,8,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),Congresso com dois presidentes; uma linha por presidente
+89,Lyndon B. Johnson,D,nenhum,14,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+90,Lyndon B. Johnson,D,nenhum,8,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+91,Richard Nixon,R,ambos,11,3,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+92,Richard Nixon,R,ambos,20,2,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+93,Richard Nixon,R,ambos,12,2,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),Congresso com dois presidentes; uma linha por presidente
+93,Gerald R. Ford,R,ambos,27,4,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),Congresso com dois presidentes; uma linha por presidente
+94,Gerald R. Ford,R,ambos,39,8,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+95,Jimmy Carter,D,nenhum,19,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+96,Jimmy Carter,D,nenhum,12,2,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+97,Ronald Reagan,R,Camara,15,2,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+98,Ronald Reagan,R,Camara,24,2,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+99,Ronald Reagan,R,Camara,20,2,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+100,Ronald Reagan,R,ambos,19,3,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+101,George Bush,R,ambos,20,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),"inconsistencia na UCSB: total 20, regular 15 + pocket 4; total por presidente bate"
+102,George Bush,R,ambos,24,1,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),"inconsistencia na UCSB: total 24, regular 14 + pocket 11; total por presidente bate"
+103,William J. Clinton,D,nenhum,0,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+104,William J. Clinton,D,ambos,17,1,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+105,William J. Clinton,D,ambos,8,1,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+106,William J. Clinton,D,ambos,12,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+107,George W. Bush,R,Senado,0,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),Senado mudou de maioria duas vezes no 107o; classificacao usa a maioria em nov/2002
+108,George W. Bush,R,nenhum,0,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+109,George W. Bush,R,nenhum,1,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+110,George W. Bush,R,ambos,11,4,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+111,Barack Obama,D,nenhum,2,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+112,Barack Obama,D,Camara,0,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+113,Barack Obama,D,Camara,0,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+114,Barack Obama,D,ambos,10,1,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+115,Donald J. Trump - I,R,nenhum,0,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+116,Donald J. Trump - I,R,Camara,10,1,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+117,"Joseph R. Biden, Jr.",D,nenhum,0,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),Senado 50-50 com democratas organizando
+118,"Joseph R. Biden, Jr.",D,Camara,13,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),
+119,Donald J. Trump - II,R,nenhum,2,0,UCSB (ucsb-vetoes); totais por presidente conferidos com House History (house-vetoes) e Senate (senate-vetoes),parcial: UCSB com dados ate 08/jan/2026

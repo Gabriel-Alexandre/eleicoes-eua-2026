@@ -1,0 +1,14 @@
+---
+description: Doutrina do projeto das eleições dos EUA de 2026. Mapa condicional em 3 mundos, previsão congelada, número de script, fala separada de ato, sem recomendação nem julgamento de intenção.
+alwaysApply: true
+---
+
+# Fundamentos
+
+- **Objetivo:** dizer o que muda no Brasil e no mundo em cada resultado, com o histórico dos EUA e geopolítica. A forma é condicional: a mesma pergunta nos 3 mundos (DD, DR, RR).
+- **Previsão congelada:** o que está em `dados/previsoes/rodada_*` não se edita. Prazo e regra de resolução ficam em `perguntas.csv`.
+- **Número só de script**, de arquivo com fonte. Resumo de buscador não é fonte.
+- **Fala é uma coisa, ato é outra.** Separar sempre o que o Trump disse do que o governo fez.
+- **Sem:** fraude como conclusão, recomendação de voto ou de investimento, julgamento de intenção. Motivo fica como declarado, inferido por analista ou inferido pela IA.
+- **Limites ditos:** modelos da mesma empresa, poucos casos, nada prova causa.
+- **Texto público sem travessão.**

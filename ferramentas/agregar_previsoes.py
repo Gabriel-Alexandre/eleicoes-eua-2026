@@ -67,6 +67,11 @@ def main():
         "p_mundos_b": {r["modelo"]: r["p_mundos"] for r in B},
         "efeito_medio_de_ler_a_historia": efeito_hist,
         "discordancia_media_DD": round(st.mean(l["discordancia_DD"] for l in linhas), 1),
+        "efeito_por_grupo": {g: round(st.mean(abs(l["efeito_DD_RR"]) for l in linhas if l["grupo"] == g), 1) for g in ("brasil", "mundo", "trump")},
+        # Corte que importa: o que depende do voto do Congresso contra o resto.
+        "efeito_brasil_depende_do_congresso": round(st.mean(abs(l["efeito_DD_RR"]) for l in linhas if l["id"] in ("B04", "B05", "B06")), 1),
+        "efeito_brasil_nao_depende": round(st.mean(abs(l["efeito_DD_RR"]) for l in linhas if l["grupo"] == "brasil" and l["id"] not in ("B04", "B05", "B06")), 1),
+        "maior_efeito_brasil": max((l for l in linhas if l["grupo"] == "brasil"), key=lambda l: abs(l["efeito_DD_RR"]))["id"],
         "perguntas": linhas,
     }
     resumo_path.write_text(json.dumps(R, ensure_ascii=False, indent=1), encoding="utf-8")
