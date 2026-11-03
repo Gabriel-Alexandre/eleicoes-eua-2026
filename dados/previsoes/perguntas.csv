@@ -1,0 +1,28 @@
+id,grupo,pergunta,prazo,resolve_sim_se
+B01,brasil,Os EUA reduzem a tarifa de 25% da Seção 301 contra o Brasil ou ampliam isenção relevante por acordo,2027-06-30,ato publicado do USTR ou da Casa Branca reduzindo a taxa ou ampliando isenção para acordo com o Brasil
+B02,brasil,Trump e Lula se encontram pessoalmente,2027-06-30,encontro presencial confirmado por um dos dois governos
+B03,brasil,Daniel Perez assume como embaixador dos EUA em Brasília,2027-12-31,apresentação de credenciais confirmada por um dos governos
+B04,brasil,Uma comissão da Câmara dos EUA faz audiência pública com o caso Flávio Bolsonaro entre os temas,2027-12-31,audiência registrada no site da comissão
+B05,brasil,Uma comissão do Congresso dos EUA emite intimação (subpoena) sobre a entrada de Flávio Bolsonaro nos EUA,2028-12-31,intimação confirmada pela comissão ou por duas agências
+B06,brasil,A Câmara dos EUA aprova em plenário medida para encerrar ou limitar tarifas sobre o Brasil,2028-12-31,votação de plenário aprovada registrada no clerk.house.gov
+B07,brasil,Os EUA aplicam sanção nominal nova a autoridade brasileira,2027-06-30,ato do Tesouro ou do Departamento de Estado publicado; revogação de visto não conta
+B08,brasil,Os EUA encerram ou deixam de renovar a autorização de permanência de Flávio Bolsonaro,2027-12-31,confirmado por governo; advogado ou duas agências
+B09,brasil,Os EUA fazem ataque militar em solo ou águas territoriais brasileiras contra facção sem aval do Brasil,2029-01-20,ataque confirmado por um dos governos
+B10,brasil,As exportações do Brasil para os EUA em 2027 superam as de 2026,2028-02-29,ComexStat: valor FOB de 2027 maior que o de 2026
+B11,brasil,A PTAX de venda de 30/06/2027 fica abaixo da PTAX de 30/10/2026,2027-06-30,série 1 do SGS do Banco Central
+W01,mundo,O Congresso aprova nova ajuda à Ucrânia de pelo menos US$ 10 bilhões,2028-12-31,lei sancionada ou veto derrubado; contagem pela lei publicada
+W02,mundo,"O Congresso aprova lei nova de sanções contra a Rússia, além da Lei Graham de 18/09/2026",2028-12-31,lei sancionada ou veto derrubado
+W03,mundo,Uma resolução conjunta de poderes de guerra (a que vai ao presidente) passa nas 2 casas depois de 03/01/2027,2028-12-31,resolução conjunta aprovada nas 2 casas no mesmo texto; a concorrente de 23/06/2026 não conta
+W04,mundo,O Congresso derruba um veto de Trump sobre tarifa ou uso da força,2029-01-03,votação de 2/3 nas 2 casas
+W05,mundo,A tarifa média efetiva dos EUA em 31/12/2027 fica pelo menos 3 pontos abaixo da de 31/10/2026,2027-12-31,Yale Budget Lab; se ausente; Tax Foundation
+W06,mundo,Os EUA fazem nova operação militar em país da América Latina sem aval do governo local,2027-12-31,operação confirmada pelo Pentágono ou por duas agências; ataque a barcos em águas internacionais não conta
+W07,mundo,EUA e China assinam acordo comercial formal,2027-12-31,texto assinado pelos dois governos
+W08,mundo,Os EUA retomam ataques ao território do Irã,2027-12-31,ataque confirmado pelo Pentágono depois de 03/11/2026
+T01,trump,Trump afirma publicamente que o resultado nacional de 2026 foi fraudado,2027-01-03,fala ou post com a afirmação sobre o resultado nacional
+T02,trump,Uma maioria eleita deixa de tomar posse no início do novo Congresso em 03/01/2027,2027-01-05,a Câmara ou o Senado não organizados com a maioria eleita até 05/01/2027
+T03,trump,A Câmara aprova artigos de impeachment contra Trump,2029-01-03,votação de plenário aprovada
+T04,trump,A Câmara aprova artigos de impeachment contra um secretário do governo Trump,2029-01-03,votação de plenário aprovada
+T05,trump,O governo federal fica paralisado por pelo menos 7 dias,2027-12-31,lapso de orçamento de pelo menos 7 dias
+T06,trump,Trump dá pelo menos 10 vetos,2028-12-31,contagem do senate.gov para o 119º e o 120º Congressos a partir de 03/11/2026
+B12,brasil,O Brasil concede o agrément a Daniel Perez,2027-06-30,anúncio de qualquer um dos governos
+W09,mundo,Os EUA passam a cobrar a tarifa da Lei Graham de pelo menos 25% de algum país comprador de energia russa,2027-12-31,"ato publicado impondo a tarifa, em vigor"
