@@ -13,3 +13,7 @@ Plano e perguntas escritos antes de qualquer resposta dos modelos, às 21h39.
 - **Condição B (com a história):** `e90451a`, 22h23. Os mesmos 4 modelos, com `dados/previsoes/dossie_b.md`.
 - **O que caiu do plano:** a hipótese de que o Senado pesava no embaixador. Perez já foi confirmado por 51 a 47; quem falta é o Brasil.
 - **Corte acrescentado depois de ver as respostas:** o efeito dentro do Brasil separado entre o que depende de voto do Congresso (B04, B05, B06) e o resto. Foi feito depois de ver o número, para explicar que a média do grupo escondia 2 coisas diferentes. Os valores brutos seguem no relatório.
+
+## Pendências da revisão, abertas em 02/nov/2026
+
+Revisão em `docs/revisao/subestima_o_congresso.md`. ⚠️ **Erro alto ainda não corrigido:** o "acordo provisório até dezembro" do `dossie_b.md` vem de texto de 14/11/2025, sobre a tarifa de 50%, e influenciou B01, B02 e B12. A condição B fica congelada; a correção é uma rodada nova. Também em aberto: 2019 lido pela metade (aço de Canadá e México, ameaça ao México), a retirada dos 40% sobre alimentos em 20/11/2025, e o efeito de 2,1 pontos no Brasil, que é ruído e deve ser lido como "não detectado". As revisões de viés e de auditoria podem ter ficado incompletas.

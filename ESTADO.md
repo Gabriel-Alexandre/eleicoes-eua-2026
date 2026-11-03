@@ -4,6 +4,8 @@
 
 **O que ainda muda a conta:** o resultado de 03/nov, o prazo de 13/nov da carta a Rubio, a proposta americana do grupo de trabalho sobre tarifas, o G20 de 14 e 15/dez, o novo Congresso em 03/01/2027.
 
+**⚠️ Antes de usar o número do Brasil:** ler `docs/RODADAS.md`, seção Pendências. O relatório ainda não incorporou a revisão.
+
 **Regra:** as previsões gravadas não se reescrevem. Rodada nova é pasta nova. A cobrança sai contra `dados/previsoes/perguntas.csv`, com prazo e regra de resolução.
 
 **Refazer:** `docs/REPLICAR.md`.
