@@ -1,0 +1,32 @@
+{
+  "modelo": "opus",
+  "condicao": "A",
+  "p_mundos": {"DD": 30, "DR": 52, "RR": 16, "outro": 2},
+  "perguntas": {
+    "B01": {"DD": 27, "DR": 26, "RR": 22, "porque": "O grupo de trabalho abre caminho para um acordo, mas a decisão é do Executivo, a acusação de fraude atrapalha, e um Congresso democrata só aumenta um pouco a pressão por preços."},
+    "B02": {"DD": 25, "DR": 25, "RR": 22, "porque": "Os dois já se encontraram antes e há cúpulas no período, mas o clima depois da eleição brasileira e o prazo curto limitam a chance, que depende pouco do Congresso."},
+    "B03": {"DD": 25, "DR": 40, "RR": 42, "porque": "Depende do agrément brasileiro, ainda pendente, e da confirmação no Senado, que fica bem mais difícil com maioria democrata."},
+    "B04": {"DD": 32, "DR": 30, "RR": 14, "porque": "Basta o caso aparecer entre os temas de uma audiência, e uma comissão de maioria democrata tem motivo para isso, depois do pedido dos 25 deputados, embora o tema seja de baixa prioridade."},
+    "B05": {"DD": 4, "DR": 3, "RR": 0.5, "porque": "Intimação exige uma prioridade que um caso individual de imigração dificilmente alcança, mesmo com a Câmara democrata."},
+    "B06": {"DD": 15, "DR": 13, "RR": 2, "porque": "A Seção 301 não tem o rito privilegiado das emergências, então a medida precisa de prioridade da liderança e de um texto que alcance o Brasil, o que só é plausível com maioria democrata."},
+    "B07": {"DD": 12, "DR": 13, "RR": 16, "porque": "A investigação de Flávio e a alegação de fraude dão pretexto, mas sanção nominal nova em 8 meses vai contra as negociações e a retirada anterior, com o Congresso pesando pouco."},
+    "B08": {"DD": 7, "DR": 7, "RR": 5, "porque": "O governo que autorizou a entrada não tem motivo para retirá-la, e a saída mais provável é uma troca de status, como asilo, sem perda de permanência."},
+    "B09": {"DD": 2, "DR": 2, "RR": 3, "porque": "A designação como terroristas abre a porta, mas atacar sem aval em solo de um país grande e distante continua muito improvável."},
+    "B10": {"DD": 65, "DR": 64, "RR": 60, "porque": "A base de 2026 foi deprimida pelas tarifas e o crescimento nominal costuma favorecer o ano seguinte, com queda possível se o preço das commodities ceder."},
+    "B11": {"DD": 46, "DR": 46, "RR": 44, "porque": "É quase um cara ou coroa cambial, com diferencial de juros a favor do real e risco fiscal do novo mandato contra, e o resultado americano muda pouco."},
+    "W01": {"DD": 20, "DR": 14, "RR": 5, "porque": "Precisa de lei sancionada por Trump, o que só acontece dentro de um pacote maior, mais viável com democratas controlando a pauta."},
+    "W02": {"DD": 22, "DR": 18, "RR": 12, "porque": "Há apoio dos dois partidos no Congresso, mas a liderança republicana espera o sinal de Trump, e maiorias democratas ajudam a pautar sem garantir a sanção."},
+    "W03": {"DD": 45, "DR": 18, "RR": 8, "porque": "Com Irã e América Latina em pauta, passar nas 2 casas é plausível com maioria democrata, e o Senado republicano só deixa isso acontecer com várias dissidências, como em 2019 e 2020."},
+    "W04": {"DD": 5, "DR": 3, "RR": 1, "porque": "Dois terços nas 2 casas contra Trump é um patamar que nenhum dos seus vetos sobre esses temas alcançou."},
+    "W05": {"DD": 20, "DR": 18, "RR": 14, "porque": "A pressão por preços pode render cortes, mas a Casa Branca tende a repor tarifas por outras leis, e cair 3 pontos em 14 meses é queda grande."},
+    "W06": {"DD": 20, "DR": 22, "RR": 28, "porque": "Depois da Venezuela e das designações de cartéis, o histórico recente pesa, e um Congresso republicano impõe menos custo político a uma nova operação."},
+    "W07": {"DD": 20, "DR": 20, "RR": 22, "porque": "Trump quer um acordo e há tréguas em andamento, mas um texto formal assinado pelos dois governos é mais exigente que os entendimentos que costumam sair."},
+    "W08": {"DD": 38, "DR": 40, "RR": 47, "porque": "A trégua é frágil e o conflito é recente, e um Congresso contrário eleva o custo político sem impedir um ataque."},
+    "T01": {"DD": 50, "DR": 40, "RR": 8, "porque": "Trump costuma alegar fraude quando perde, mas a regra exige que a afirmação recaia sobre o resultado nacional, e não sobre estados ou o voto pelo correio, e ela perde motivo se ele vencer."},
+    "T02": {"DD": 4, "DR": 4, "RR": 2, "porque": "A posse é rotina constitucional, e o risco residual está em uma disputa longa pela presidência da Câmara com maioria estreita ou em contestação de resultados."},
+    "T03": {"DD": 28, "DR": 25, "RR": 1, "porque": "A base democrata pressiona, mas a liderança resiste a um processo sem chance de condenação no Senado, e sem maioria democrata na Câmara isso quase não existe."},
+    "T04": {"DD": 30, "DR": 28, "RR": 1, "porque": "Os democratas têm alvos claros no gabinete e o caso Mayorkas é precedente, com custo político menor que o de acusar o presidente, mas a liderança pode preferir investigar a votar."},
+    "T05": {"DD": 40, "DR": 38, "RR": 18, "porque": "O governo dividido e a experiência recente de paralisações longas aumentam muito o risco, mas chegar a 7 dias exige um impasse prolongado em um prazo de 14 meses."},
+    "T06": {"DD": 60, "DR": 28, "RR": 4, "porque": "Trump deu 10 vetos em 2019 e 2020 com a Câmara democrata e o Senado republicano; com as 2 casas democratas chegam mais projetos à mesa dele, e com as 2 republicanas quase nenhum."}
+  }
+}

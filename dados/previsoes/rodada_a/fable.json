@@ -1,0 +1,32 @@
+{
+  "modelo": "fable",
+  "condicao": "A",
+  "p_mundos": {"DD": 27, "DR": 53, "RR": 18, "outro": 2},
+  "perguntas": {
+    "B01": {"DD": 28, "DR": 26, "RR": 24, "porque": "A Seção 301 é ato do USTR, não do Congresso; o grupo de trabalho existe, mas o clima com Flávio nos EUA e a fala de fraude pesam contra um acordo em 8 meses."},
+    "B02": {"DD": 32, "DR": 30, "RR": 30, "porque": "Os dois já se encontraram em 2025 e há cúpulas multilaterais no caminho, mas a tensão sobre a eleição e sobre Flávio reduz a chance de encontro presencial até junho."},
+    "B03": {"DD": 25, "DR": 35, "RR": 36, "porque": "O gargalo principal é o agrément do Brasil, que tende a demorar enquanto a relação estiver azeda; um Senado democrata ainda atrasa a confirmação."},
+    "B04": {"DD": 55, "DR": 55, "RR": 40, "porque": "Com a Câmara democrata, audiências de supervisão sobre o Departamento de Estado e o parole tendem a incluir o caso; com Câmara republicana, o caso pode entrar em audiência sobre o Judiciário brasileiro, só que com menos chance."},
+    "B05": {"DD": 28, "DR": 25, "RR": 5, "porque": "Intimação exige maioria democrata numa comissão e disposição de brigar por um caso específico de parole; é possível em dois anos, mas não é prioridade; republicanos não intimariam o próprio governo."},
+    "B06": {"DD": 35, "DR": 35, "RR": 4, "porque": "Uma Câmara democrata pode votar medida simbólica contra tarifas ao Brasil, como o Senado fez em 2025, mas a Seção 301 não tem resolução privilegiada, o que reduz a chance; a maioria republicana não leva isso ao plenário."},
+    "B07": {"DD": 43, "DR": 45, "RR": 46, "porque": "Sanção é ato do Executivo e já há precedente de 2025 contra ministro do STF; com Flávio investigado e Trump falando em fraude, sanção nova em 8 meses é quase moeda no ar."},
+    "B08": {"DD": 15, "DR": 13, "RR": 12, "porque": "O governo Trump é favorável a Flávio e o parole costuma durar mais de um ano; encerrar ou não renovar até dezembro de 2027 exige virada política ou troca por outro status."},
+    "B09": {"DD": 7, "DR": 8, "RR": 9, "porque": "A designação do PCC e do CV abre a porta jurídica e há precedente na Venezuela, mas atacar em território de um país do tamanho do Brasil sem aval é escalada rara mesmo em 26 meses."},
+    "B10": {"DD": 47, "DR": 46, "RR": 45, "porque": "Exportação nominal costuma crescer, mas 2027 será o primeiro ano inteiro sob a tarifa de 25%, enquanto 2026 teve metade do ano sem ela; fica perto do empate."},
+    "B11": {"DD": 46, "DR": 45, "RR": 45, "porque": "Câmbio em 8 meses é quase aleatório; a reeleição do Lula e a incerteza fiscal pesam um pouco contra o real, e o Congresso americano pouco muda isso."},
+    "W01": {"DD": 30, "DR": 18, "RR": 10, "porque": "US$ 10 bilhões só viram lei com assinatura de Trump ou veto derrubado; com as duas casas democratas o pacote pode ir numa lei maior que ele não queira vetar, nos outros mundos a liderança republicana não leva ao voto."},
+    "W02": {"DD": 40, "DR": 30, "RR": 22, "porque": "O projeto de sanções à Rússia tem apoio amplo no Senado, mas Trump segura; vira lei se ele quiser alavanca contra Putin ou se os democratas conseguirem embutir em lei que ele assine."},
+    "W03": {"DD": 55, "DR": 30, "RR": 8, "porque": "Com guerra no Irã e operações na América Latina, uma Câmara democrata aprova; no Senado republicano depende de 4 dissidentes no mesmo texto, o que já falhou por pouco em 2025."},
+    "W04": {"DD": 10, "DR": 5, "RR": 2, "porque": "Derrubar veto exige 2/3 nas duas casas, e mesmo com maioria democrata faltam dezenas de republicanos dispostos a contrariar Trump em tarifa ou guerra."},
+    "W05": {"DD": 28, "DR": 25, "RR": 22, "porque": "A tarifa efetiva depende de acordos, da Seção 232/301 e de tribunais, não do Congresso; uma queda de 3 pontos em 14 meses exige acordos grandes ou nova derrota judicial."},
+    "W06": {"DD": 35, "DR": 38, "RR": 42, "porque": "Depois de capturar Maduro e designar facções como terroristas, operação nova sem aval, em México, Colômbia ou Cuba, é plausível em 14 meses; Câmara democrata inibe só um pouco."},
+    "W07": {"DD": 35, "DR": 35, "RR": 36, "porque": "A trégua com a China existe, mas um texto formal assinado pelos dois governos é mais difícil que uma trégua renovada; o Congresso quase não pesa."},
+    "W08": {"DD": 45, "DR": 48, "RR": 50, "porque": "O conflito com o Irã já teve trégua e retomada; em 14 meses a chance de novo ataque ao território é perto de meio a meio, um pouco menor se a Câmara democrata ameaçar com poderes de guerra."},
+    "T01": {"DD": 70, "DR": 60, "RR": 10, "porque": "Trump já preparou o terreno contra voto pelo correio; se perder a Câmara, dizer que o resultado nacional foi fraudado é o padrão dele; se vencer as duas, não tem motivo."},
+    "T02": {"DD": 7, "DR": 7, "RR": 12, "porque": "O risco real é uma eleição de presidente da Câmara que passe de 5 de janeiro, como em 2023; maioria republicana apertada briga mais do que a democrata com Jeffries."},
+    "T03": {"DD": 42, "DR": 40, "RR": 2, "porque": "Com Câmara democrata, a pressão da base por impeachment após Maduro, Irã e os casos internos é grande, mas a liderança resiste para não repetir 2019; sem Câmara democrata, não acontece."},
+    "T04": {"DD": 35, "DR": 33, "RR": 2, "porque": "O precedente de Mayorkas em 2024 baixou a barreira; secretários como Hegseth, Noem ou Bondi são alvos mais fáceis que o presidente para uma maioria democrata."},
+    "T05": {"DD": 50, "DR": 50, "RR": 35, "porque": "Depois da paralisação de 43 dias em 2025, uma Câmara democrata contra Trump no orçamento de outubro de 2027 torna novo lapso de 7 dias quase meio a meio; com controle republicano total cai, mas não some."},
+    "T06": {"DD": 55, "DR": 25, "RR": 8, "porque": "Vetos exigem bills chegando à mesa; com as duas casas democratas o ritmo de Obama em 2015 e 2016 (12) ou Bush em 2007 e 2008 (12) é alcançável; com Senado republicano poucos projetos chegam."}
+  }
+}
