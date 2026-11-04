@@ -7,6 +7,8 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 R = json.loads((RAIZ / "resultados" / "RESUMO.json").read_text(encoding="utf-8"))
+RES = json.loads((RAIZ / "resultados" / "RESULTADO.json").read_text(encoding="utf-8"))
+VOT = json.loads((RAIZ / "dados" / "resultado_03nov.json").read_text(encoding="utf-8"))
 h, pv, b, v, c = R["historia"], R["previsoes"], R["brasil"], R["vetos"], R["chances"]
 Q = {p["id"]: p for p in pv["perguntas"]}
 
@@ -49,6 +51,18 @@ RELATORIO = f"""# Relatório: eleições dos EUA de 2026, o que muda em cada res
 - **As probabilidades de IA** são de 4 modelos da mesma empresa, com o mesmo texto: concordar entre eles não confirma nada, e modelos ainda perdem de previsores humanos treinados. Abaixo de 5%, o número é mais piso do que medida. A discordância média entre eles foi de {n(pv['discordancia_media_DD'])} pontos no mundo DD.
 - **Acesso:** `senate.gov` recusou este computador; o voto a voto do Senado vem de imprensa. Não há Gallup de 2026, porque a Gallup encerrou a medição em fevereiro.
 - **Lei:** a conclusão de que não há rito rápido contra a tarifa da Seção 301 é leitura do texto da lei feita pela IA, sem parecer de advogado lido; as seções 2413 e 2418 a 2420 não foram lidas.
+
+## 0. O resultado de 03/nov (atualização de 04/nov, manhã)
+
+⚠️ Apuração em andamento: são projeções da imprensa, não resultado oficial. Fontes e falas em `dados/resultado_03nov.json` e `docs/PESQUISA_RESULTADO.md`.
+
+- **Aconteceu o mundo DD: democratas nas 2 casas.** Câmara: {VOT['camara']['d_projetadas']} democratas e {VOT['camara']['r_projetadas']} republicanos projetados, {VOT['camara']['sem_projecao']} sem projeção, {VOT['camara']['virou_liquido_ate_agora']} cadeiras viradas até aqui; a NBC estima {VOT['camara']['estimativa_nbc_d']} a {VOT['camara']['estimativa_nbc_r']} no fim. Senado: {VOT['senado']['d']} a {VOT['senado']['r']}, com {' e '.join(VOT['senado']['sem_projecao'])} sem projeção ({VOT['senado']['mississippi_diferenca_votos']} votos de diferença no Mississippi); viradas em {', '.join(VOT['senado']['viradas'])}.
+- **O modelo de história acertou melhor que os modelos por distrito, por enquanto.** Pela estimativa da NBC, os republicanos perdem {n(abs(RES['perda_republicana_estimada']))} cadeiras. O modelo com aprovação e voto genérico tinha dito {n(abs(RES['previsao_dos_modelos_de_historia']['os_dois']))}, o de aprovação {n(abs(RES['previsao_dos_modelos_de_historia']['aprovacao']))}; os modelos por distrito davam de {n(min(x['cadeiras_camara_d'] for x in RES['previsoes_por_distrito_cadeiras_d']))} a {n(max(x['cadeiras_camara_d'] for x in RES['previsoes_por_distrito_cadeiras_d']))} democratas. A objeção da revisão de que o modelo de história exagerava por não ver o redesenho (`docs/revisao/vies_contra_republicanos.md` A3) não se confirmou nesta eleição. Uma eleição só não valida modelo.
+- **Nota de Brier dos 3 mundos** (0 é perfeito; 0,667 é chutar um terço para cada): mercados e modelos {br(RES['brier_3_mundos']['mercados_e_modelos'], 3)}; as 4 IAs sem a história de {br(min(v for k, v in RES['brier_3_mundos'].items() if k.startswith('ia_a')), 3)} a {br(max(v for k, v in RES['brier_3_mundos'].items() if k.startswith('ia_a')), 3)}; com o dossiê, de {br(min(v for k, v in RES['brier_3_mundos'].items() if k.startswith('ia_b')), 3)} a {br(max(v for k, v in RES['brier_3_mundos'].items() if k.startswith('ia_b')), 3)}. O dossiê trazia as chances dos mercados, então a condição B não é previsão independente sobre quem ganha.
+- **O Trump aceitou o resultado e manteve o veto.** Ao New York Times: *"I am absolutely willing to accept those results"*. Na Truth Social, culpou não estar na cédula. À Fox: *"They'll send over things that are insane, and I'll veto them"*, e depois *"we'll work together"*; postou o boné com a palavra VETO. A pergunta T01 (dizer que o resultado nacional foi fraudado, prazo 03/01/2027) segue aberta, com a leitura de agora contra ela.
+- **Veto:** com {VOT['camara']['estimativa_nbc_d']} democratas na Câmara e {VOT['senado']['d']} no Senado, derrubar veto pede {RES['veto']['camara_republicanos_para_2_tercos']} republicanos na Câmara e {RES['veto']['senado_republicanos_para_2_tercos']} no Senado.
+- **Intimação:** o principal democrata da comissão de Fiscalização postou *"LAWYER UP"*; o poder de intimar começa com o novo Congresso, e o Departamento de Justiça atual dificilmente executa intimação do Congresso (CNN).
+- **Mercado e Brasil:** bolsas americanas para cima, juros e dólar para baixo na manhã de 04/11 (CNN). Até a captura, sem nota oficial do Planalto ou do Itamaraty; a PTAX de 04/11 ainda não tinha saído.
 
 ## 1. A resposta
 
@@ -125,11 +139,12 @@ Por região, com divergências: `docs/PESQUISA_MUNDO.md` e `dados/e5_mundo.csv`.
 
 SIMPLES = f"""# Resumo simples
 
-**Antes da votação de 03/nov/2026.** Análise feita pelo Claude.
+**Feito antes da votação de 03/nov/2026, com o resultado acrescentado em 04/nov.** Análise feita pelo Claude.
 
 | Pergunta | Resposta | Por quê |
 |---|---|---|
-| Quem deve ganhar? | Modelos e mercados dão {n(pm['DD'])}% aos democratas nas 2 casas, {n(pm['DR'])}% só na Câmara e {n(pm['RR'])}% aos republicanos | aprovação baixa e história: o partido do presidente perdeu cadeiras em {h['camara_perdeu_cadeiras']} de {h['n']} |
+| O que aconteceu? | Democratas nas 2 casas: {VOT['camara']['d_projetadas']} cadeiras projetadas na Câmara (a NBC estima {VOT['camara']['estimativa_nbc_d']}) e {VOT['senado']['d']} no Senado, com 2 disputas em aberto. O Trump disse que aceita o resultado e que vai vetar | projeções da imprensa em 04/11 de manhã, `RELATORIO.md` §0 |
+| Quem devia ganhar, na véspera? | Modelos e mercados dão {n(pm['DD'])}% aos democratas nas 2 casas, {n(pm['DR'])}% só na Câmara e {n(pm['RR'])}% aos republicanos | aprovação baixa e história: o partido do presidente perdeu cadeiras em {h['camara_perdeu_cadeiras']} de {h['n']} |
 | O que muda nos EUA? | Muito: vetos, investigações, votos sobre guerra, chance de impeachment | {n(ef['trump'])} pontos de diferença média entre os extremos |
 | O que muda no mundo? | Pouco e devagar: {n(ef['mundo'])} pontos | tarifa e força moram na mão do presidente, e derrubar veto pede 2/3 |
 | O que muda no Brasil? | {n(pv['efeito_brasil_nao_depende'])} pontos no que não depende de voto do Congresso; {n(pv['efeito_brasil_depende_do_congresso'])} no que depende | a tarifa de hoje não tem rito rápido no Congresso, e o embaixador já foi confirmado |

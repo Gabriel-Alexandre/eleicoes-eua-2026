@@ -11,6 +11,18 @@
 - **Acesso:** `senate.gov` recusou este computador; o voto a voto do Senado vem de imprensa. Não há Gallup de 2026, porque a Gallup encerrou a medição em fevereiro.
 - **Lei:** a conclusão de que não há rito rápido contra a tarifa da Seção 301 é leitura do texto da lei feita pela IA, sem parecer de advogado lido; as seções 2413 e 2418 a 2420 não foram lidas.
 
+## 0. O resultado de 03/nov (atualização de 04/nov, manhã)
+
+⚠️ Apuração em andamento: são projeções da imprensa, não resultado oficial. Fontes e falas em `dados/resultado_03nov.json` e `docs/PESQUISA_RESULTADO.md`.
+
+- **Aconteceu o mundo DD: democratas nas 2 casas.** Câmara: 231 democratas e 144 republicanos projetados, 60 sem projeção, 29 cadeiras viradas até aqui; a NBC estima 258 a 177 no fim. Senado: 54 a 44, com Alasca e Mississippi sem projeção (43 votos de diferença no Mississippi); viradas em Iowa, Kansas, Ohio, Maine, Carolina do Norte, Carolina do Sul, Texas.
+- **O modelo de história acertou melhor que os modelos por distrito, por enquanto.** Pela estimativa da NBC, os republicanos perdem 41 cadeiras. O modelo com aprovação e voto genérico tinha dito 41,4, o de aprovação 37,6; os modelos por distrito davam de 236 a 241 democratas. A objeção da revisão de que o modelo de história exagerava por não ver o redesenho (`docs/revisao/vies_contra_republicanos.md` A3) não se confirmou nesta eleição. Uma eleição só não valida modelo.
+- **Nota de Brier dos 3 mundos** (0 é perfeito; 0,667 é chutar um terço para cada): mercados e modelos 0,101; as 4 IAs sem a história de 0,760 a 1,046; com o dossiê, de 0,104 a 0,116. O dossiê trazia as chances dos mercados, então a condição B não é previsão independente sobre quem ganha.
+- **O Trump aceitou o resultado e manteve o veto.** Ao New York Times: *"I am absolutely willing to accept those results"*. Na Truth Social, culpou não estar na cédula. À Fox: *"They'll send over things that are insane, and I'll veto them"*, e depois *"we'll work together"*; postou o boné com a palavra VETO. A pergunta T01 (dizer que o resultado nacional foi fraudado, prazo 03/01/2027) segue aberta, com a leitura de agora contra ela.
+- **Veto:** com 258 democratas na Câmara e 54 no Senado, derrubar veto pede 32 republicanos na Câmara e 13 no Senado.
+- **Intimação:** o principal democrata da comissão de Fiscalização postou *"LAWYER UP"*; o poder de intimar começa com o novo Congresso, e o Departamento de Justiça atual dificilmente executa intimação do Congresso (CNN).
+- **Mercado e Brasil:** bolsas americanas para cima, juros e dólar para baixo na manhã de 04/11 (CNN). Até a captura, sem nota oficial do Planalto ou do Itamaraty; a PTAX de 04/11 ainda não tinha saído.
+
 ## 1. A resposta
 
 **O resultado muda muito dentro dos Estados Unidos e pouco no que o Trump faz sozinho.** Entre democratas nas 2 casas e republicanos nas 2, a chance muda em média 28,2 pontos nas perguntas sobre Trump e Congresso, 10,1 nas do mundo e 6,2 nas do Brasil. Dentro do Brasil, 18,3 pontos no que depende de voto do Congresso (audiência, intimação, votação contra a tarifa) e 2,1 no resto (tarifa de fato, sanção, embaixador, encontro, ataque, exportação, dólar).

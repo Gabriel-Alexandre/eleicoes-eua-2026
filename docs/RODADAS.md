@@ -17,3 +17,10 @@ Plano e perguntas escritos antes de qualquer resposta dos modelos, às 21h39.
 ## Pendências da revisão, abertas em 02/nov/2026
 
 Revisão em `docs/revisao/subestima_o_congresso.md`. ⚠️ **Erro alto ainda não corrigido:** o "acordo provisório até dezembro" do `dossie_b.md` vem de texto de 14/11/2025, sobre a tarifa de 50%, e influenciou B01, B02 e B12. A condição B fica congelada; a correção é uma rodada nova. Também em aberto: 2019 lido pela metade (aço de Canadá e México, ameaça ao México), a retirada dos 40% sobre alimentos em 20/11/2025, e o efeito de 2,1 pontos no Brasil, que é ruído e deve ser lido como "não detectado". Revisões completas: `docs/revisao/vies_contra_republicanos.md` e `docs/revisao/auditoria.md`; os itens altos delas (exportações de 9 meses tratadas como anuais, Decision Desk HQ fora da tabela de chances, recorde de 5 e não 4 no Senado, via da Congressional Review Act, erro de pesquisa e redesenho ausentes) também não foram aplicados.
+
+## Rodada 2, 04/nov/2026, depois da votação
+
+- **Entrou:** o resultado de 03/nov, com fonte (`dados/resultado_03nov.json`, `docs/PESQUISA_RESULTADO.md`), a comparação com o que foi gravado (`ferramentas/conferir_resultado.py`, `resultados/RESULTADO.json`) e a seção 0 do relatório.
+- **Não mudou:** nenhuma previsão gravada. As pendências da revisão (rodada 1) seguem abertas, porque o resultado não as resolve.
+- **O que o resultado já diz:** DD aconteceu. O modelo de história (perda de 41,4) bateu com a estimativa da NBC (41); os modelos por distrito ficaram abaixo. O Trump disse que aceita o resultado, o que vai contra o *"sim"* de T01 até aqui, e manteve a ameaça de veto.
+- **Refazer:** quando a apuração fechar (Alasca, Mississippi e as cadeiras da Câmara sem projeção), trocar a estimativa pelo número final e rodar de novo `conferir_resultado.py` e `gerar_relatorio.py`.

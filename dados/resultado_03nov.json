@@ -1,0 +1,21 @@
+{
+ "captura": "2026-11-04T09:00-03:00",
+ "aviso": "apuracao em andamento; numeros de projecao da imprensa, nao resultado oficial",
+ "mundo": "DD",
+ "camara": {"d_projetadas": 231, "r_projetadas": 144, "sem_projecao": 60, "virou_liquido_ate_agora": 29, "estimativa_nbc_d": 258, "estimativa_nbc_r": 177, "fonte": "resultado/nbc-camara-tabela", "segunda_fonte": "resultado/cnn-live-resultado (231 a 139, pelo menos 27 viradas)"},
+ "senado": {"d": 54, "r": 44, "sem_projecao": ["Alasca", "Mississippi"], "viradas": ["Iowa", "Kansas", "Ohio", "Maine", "Carolina do Norte", "Carolina do Sul", "Texas"], "mississippi_diferenca_votos": 43, "fonte": "resultado/nbc-senado-tabela", "segunda_fonte": "resultado/cnn-live-resultado"},
+ "aprovacao_boca_de_urna": {"valor": 38, "fonte": "resultado/cbs-camara-live"},
+ "trump": [
+  {"fala": "I am absolutely willing to accept those results", "a_quem": "New York Times", "fonte": "trump/rte-trump-aceita", "segunda_fonte": "trump/axios-trump-aceita"},
+  {"fala": "I wasn't on the Ballot and if I was, we would have won IN A LANDSLIDE!", "a_quem": "Truth Social", "fonte": "trump/rte-trump-aceita", "segunda_fonte": "trump/axios-trump-aceita"},
+  {"fala": "They'll send over things that are insane, and I'll veto them", "a_quem": "Fox News", "fonte": "trump/rte-trump-aceita"},
+  {"fala": "And after a couple of months of vetoes, they'll call and they'll say, 'how do we get this stuff done?' And we'll work together.", "a_quem": "Fox News", "fonte": "trump/rte-trump-aceita"},
+  {"fala": "post com o bone MAGA e a palavra VETO", "a_quem": "redes", "fonte": "trump/rte-trump-aceita"}
+ ],
+ "democratas": [
+  {"fato": "Robert Garcia, principal democrata da comissao de Fiscalizacao, postou LAWYER UP; Ron Wyden escreveu Subpoenas", "fonte": "resultado/cnn-live-resultado"},
+  {"fato": "as comissoes podem avisar ja em novembro; o poder de intimar comeca com o novo Congresso; o Departamento de Justica atual dificilmente executa intimacao do Congresso", "fonte": "resultado/cnn-live-resultado"}
+ ],
+ "mercado": {"fato": "futuros das bolsas americanas subiram, juros dos Treasuries cairam e o dolar enfraqueceu contra uma cesta de moedas na manha de 04/11", "fonte": "resultado/cnn-live-resultado", "ptax_04_11": null},
+ "brasil": {"fato": "ate a captura, sem nota oficial do Planalto ou do Itamaraty; na vespera, O Globo (via Gazeta do Povo) relatou que o governo teme Trump intensificar criticas ao sistema eleitoral brasileiro", "fonte": "brasil/gazeta-governo-teme"}
+}

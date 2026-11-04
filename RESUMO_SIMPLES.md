@@ -1,10 +1,11 @@
 # Resumo simples
 
-**Antes da votação de 03/nov/2026.** Análise feita pelo Claude.
+**Feito antes da votação de 03/nov/2026, com o resultado acrescentado em 04/nov.** Análise feita pelo Claude.
 
 | Pergunta | Resposta | Por quê |
 |---|---|---|
-| Quem deve ganhar? | Modelos e mercados dão 75,1% aos democratas nas 2 casas, 18,6% só na Câmara e 6,3% aos republicanos | aprovação baixa e história: o partido do presidente perdeu cadeiras em 18 de 20 |
+| O que aconteceu? | Democratas nas 2 casas: 231 cadeiras projetadas na Câmara (a NBC estima 258) e 54 no Senado, com 2 disputas em aberto. O Trump disse que aceita o resultado e que vai vetar | projeções da imprensa em 04/11 de manhã, `RELATORIO.md` §0 |
+| Quem devia ganhar, na véspera? | Modelos e mercados dão 75,1% aos democratas nas 2 casas, 18,6% só na Câmara e 6,3% aos republicanos | aprovação baixa e história: o partido do presidente perdeu cadeiras em 18 de 20 |
 | O que muda nos EUA? | Muito: vetos, investigações, votos sobre guerra, chance de impeachment | 28,2 pontos de diferença média entre os extremos |
 | O que muda no mundo? | Pouco e devagar: 10,1 pontos | tarifa e força moram na mão do presidente, e derrubar veto pede 2/3 |
 | O que muda no Brasil? | 2,1 pontos no que não depende de voto do Congresso; 18,3 no que depende | a tarifa de hoje não tem rito rápido no Congresso, e o embaixador já foi confirmado |

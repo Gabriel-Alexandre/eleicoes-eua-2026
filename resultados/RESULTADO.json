@@ -1,0 +1,47 @@
+{
+ "mundo": "DD",
+ "perda_republicana_estimada": -41,
+ "previsao_dos_modelos_de_historia": {
+  "aprovacao": -37.6,
+  "generic": -31.8,
+  "os_dois": -41.4,
+  "media_simples": -25.6
+ },
+ "erro_dos_modelos_de_historia": {
+  "aprovacao": 3.4,
+  "generic": 9.2,
+  "os_dois": -0.4,
+  "media_simples": 15.4
+ },
+ "previsoes_por_distrito_cadeiras_d": [
+  {
+   "fonte": "Midterm Forecast",
+   "cadeiras_camara_d": 236.0
+  },
+  {
+   "fonte": "Decision Desk HQ",
+   "cadeiras_camara_d": 241.0
+  }
+ ],
+ "estimativa_nbc_d": 258,
+ "brier_3_mundos": {
+  "mercados_e_modelos": 0.101,
+  "ia_a_fable": 0.851,
+  "ia_a_haiku": 0.76,
+  "ia_a_opus": 0.79,
+  "ia_a_sonnet": 1.046,
+  "ia_b_fable": 0.116,
+  "ia_b_haiku": 0.104,
+  "ia_b_opus": 0.113,
+  "ia_b_sonnet": 0.106
+ },
+ "veto": {
+  "camara_republicanos_para_2_tercos": 32,
+  "senado_republicanos_para_2_tercos": 13
+ },
+ "abertas": [
+  "T01 (prazo 03/01/2027): até 04/11 ele disse que aceita o resultado",
+  "T02 (prazo 05/01/2027)",
+  "todas as outras perguntas"
+ ]
+}
