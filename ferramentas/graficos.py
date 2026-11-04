@@ -176,11 +176,11 @@ ROTULOS = {
 def painel(nome, titulo, ids):
     q = {p["id"]: p for p in R["previsoes"]["perguntas"]}
     fig, ax = plt.subplots(figsize=(16, 9), dpi=120)
-    fig.subplots_adjust(left=0.47, right=0.97, top=0.72, bottom=0.12)
+    fig.subplots_adjust(left=0.5, right=0.97, top=0.72, bottom=0.12)
     fig.suptitle(titulo, x=0.05, y=0.965, ha="left", fontsize=34, fontweight="bold")
     fig.text(0.05, 0.895, "Chance em %, em cada mundo. Mediana de 4 modelos de IA da mesma empresa, gravada antes da votação", ha="left", va="top", fontsize=20, color="#444444")
     for y, i in enumerate(reversed(ids)):
-        ax.text(-0.04, y, ROTULOS[i], ha="right", va="center", fontsize=19, transform=ax.get_yaxis_transform())
+        ax.text(-0.04, y, ROTULOS[i], ha="right", va="center", fontsize=18, transform=ax.get_yaxis_transform())
         for x, w, c in [(0, "DD", AZUL), (1, "DR", OURO), (2, "RR", VERM)]:
             v = q[i][w]
             ax.scatter(x, y, s=1000 + v * 22, color=c)
